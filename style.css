@@ -6,9 +6,9 @@ body {
   margin: 0;
   padding: 0;
   background-image: url("background.jpg");
-  background-size: cover;              /* 이미지가 화면을 꽉 채우도록 */
-  background-repeat: no-repeat;        /* 반복 없이 한 번만 표시 */
-  background-position: center center;  /* 수직·수평 모두 중앙 정렬 */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 h1 { color: #2c3e50; }
 nav a { margin-right: 10px; color: #2980b9; text-decoration: none; }
