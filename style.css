@@ -4,10 +4,11 @@ body {
     padding: 0;
 
     background-image: url("background.jpg");
-    background-size: cover;
+    background-size: contain;        /* cover → contain */
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
+    background-color: #ffffff;       /* 흰 배경이 드러나므로 배경색 설정 */
     min-height: 100vh;
 }
 h1 { color: #2c3e50; }
